@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Picasso - Dashboard</title>
+
+  <!-- Custom fonts for this template-->
+  <link href="vendor/fontawesome-free/css/all.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+  <!-- Custom styles for this template-->
+  <link href="css/sb-admin-2.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+  <!-- Page Wrapper -->
+  <div id="wrapper">
+
+    <!-- Sidebar -->
+    <ul class="navbar-nav bg-gradient-white sidebar sidebar-light accordion" id="accordionSidebar">
+
+      <!-- Sidebar - Brand -->
+      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+        <div class="sidebar-brand-icon">
+          <img src="img/112449e.svg" width="150" class="logo-center mt-3">
+        </div>
+      </a>
+
+      <!-- Divider -->
+      <hr class="sidebar-divider my-2">
+
+      <!-- Nav Item - Dashboard -->
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">
+          <i class="fas fa-fw fa-tachometer-alt"></i>
+          <span>Account</span></a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="profile.html">
+          <i class="fas fa-fw fa-user"></i>
+          <span>Profile</span></a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="#">
+          <i class="fas fa-fw fa-trophy"></i>
+          <span>Points Activity</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">
+          <i class="fas fa-fw fa-bed"></i>
+          <span>Stays</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">
+          <i class="fas fa-fw fa-receipt"></i>
+          <span>Invoices</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">
+          <i class="fas fa-fw fa-inbox"></i>
+          <span>Inbox</span></a>
+      </li>
+
+      <!-- Divider -->
+      <hr class="sidebar-divider">
+
+
+
+    </ul>
+    <!-- End of Sidebar -->
+
+    <!-- Content Wrapper -->
+    <div id="content-wrapper" class="d-flex flex-column">
+
+      <!-- Main Content -->
+      <div id="content">
+
+        <!-- Topbar -->
+        <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+
+          <!-- Sidebar Toggle (Topbar) -->
+          <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+            <i class="fa fa-bars"></i>
+          </button>
+
+          <!-- Topbar Search -->
+          
+
+          <!-- Topbar Navbar -->
+          <ul class="navbar-nav ml-auto">
+
+            <!-- Nav Item - Search Dropdown (Visible Only XS) -->
+            <li class="nav-item dropdown no-arrow d-sm-none">
+              <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-search fa-fw"></i>
+              </a>
+              <!-- Dropdown - Messages -->
+              <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in" aria-labelledby="searchDropdown">
+                <form class="form-inline mr-auto w-100 navbar-search">
+                  <div class="input-group">
+                    <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                      <button class="btn btn-primary" type="button">
+                        <i class="fas fa-search fa-sm"></i>
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </li>
+
+            <!-- Nav Item - Alerts -->
+            <li class="nav-item dropdown no-arrow mx-1">
+              <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-bell fa-fw"></i>
+                <!-- Counter - Alerts -->
+                <span class="badge badge-danger badge-counter">0</span>
+              </a>
+              <!-- Dropdown - Alerts -->
+              <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="alertsDropdown">
+                <a class="dropdown-item d-flex align-items-center" href="#">
+                  
+                  <div>
+                    <div class="small text-gray-500">-</div>
+                    <span class="font-weight-bold">No data available.</span>
+                  </div>
+                </a>
+                
+                
+                <a class="dropdown-item text-center small text-gray-500" href="#">Show All Notification</a>
+              </div>
+            </li>
+
+            <!-- Nav Item - Messages -->
+            <li class="nav-item dropdown no-arrow mx-1">
+              <a class="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-trophy fa-fw"></i>
+                <span class="ml-2 text-success font-weight-bold">0</span>
+                <span class="ml-1 text-gray-600">Points</span>
+              </a>
+            </li>
+
+            <div class="topbar-divider d-none d-sm-block"></div>
+
+            <!-- Nav Item - User Information -->
+            <li class="nav-item dropdown no-arrow">
+              <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <img class="img-profile rounded-circle" src="img/b2433f3.png">
+                <span class="ml-2 d-none d-lg-inline text-gray-600 small">Bramastya</span>
+              </a>
+              <!-- Dropdown - User Information -->
+              <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
+                <a class="dropdown-item" href="#">
+                  <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+                  Profile
+                </a>
+                
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
+                  <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+                  Logout
+                </a>
+              </div>
+            </li>
+
+          </ul>
+
+        </nav>
+        <!-- End of Topbar -->
+
+        <!-- Begin Page Content -->
+        <div class="container-fluid">
+
+          <!-- Page Heading -->
+          <div class=" mb-4">
+            <h1 class="h3 mb-5 text-gray-800">Account</h1>
+            <h1 class="h5 mb-0 text-gray-800">Welcome back!</h1>
+          </div>
+
+          <!-- Content Row -->
+          <div class="row">
+
+            <!-- Content Column -->
+            <div class="col-lg-6 mb-0">
+
+              <!-- Project Card Example -->
+              <div class="card shadow mb-4">
+                <div class="card-header py-3">
+                  <h6 class="m-0 font-weight-bold text-primary ">My Profile <a class="fas fa-edit fa-fw text-dark" href="#"></a></h6>
+                </div>
+                <div class="card-body">
+                  <img src="img/b2433f3.png" width="100">
+                  <div class="h5 mt-3 text-gray-800">Mr. Bramastya</div>
+                  <hr class="sidebar-divider mb-2">
+                  <table>
+                    <tr>
+                      <td><div class="fas fa-id-card mr-3 my-2"></div></td>
+                      <td class="font-weight-bold">Member ID</td>
+                      <td><div class="ml-5">12345678</div></td>
+                    </tr>
+                    <tr>
+                      <td class="fas fa-envelope my-2"></td>
+                      <td class="font-weight-bold">Email</td>
+                      <td><div class="ml-5">bramastyafr@gmail.com</div></td>
+                    </tr>
+                    <tr>
+                      <td class="fas fa-phone my-2"></td>
+                      <td class="font-weight-bold">Phone</td>
+                      <td><div class="ml-5">085728123219</div></td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="col-lg-6 mb-4">
+
+              <!-- Illustrations -->
+              <div class="card shadow mb-4">
+                <div class="card-header py-3">
+                  <h6 class="m-0 font-weight-bold text-primary">My Points</h6>
+                </div>
+                <div class="card-body">
+                  <tr>
+                    <td><div class="fas fa-trophy fa-3x"></div></td>
+                    <td><h3 class="mt-2 text-success font-weight-bold">0 Points</h3></td>
+                    <hr class="sidebar-divider my-2">
+                    No data available.
+                  </tr>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-12 mb-4">
+              <!-- Approach -->
+              <div class="card shadow mb-4">
+                <div class="card-header py-3">
+                  <h6 class="m-0 font-weight-bold text-primary">Booking Status</h6>
+                </div>
+                <div class="card-header border-bottom">
+                  <ul class="nav nav-tabs card-header-tabs" id="cardTab" role="tablist">
+                    <li class="nav-item">
+                      <a class="nav-link active" id="waiting-tab" href="#waiting" data-toggle="tab" role="tab" aria-controls="waiting" aria-selected="true">
+                        <span class="font-weight-bold text-danger">0   </span>
+                        Waiting for Payment
+                        <span class="fas fa-clock fa-fw text-dark"></span>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" id="confirmed-tab" href="#confirmed" data-toggle="tab" role="tab" aria-controls="confirmed" aria-selected="false">
+                        <span class="font-weight-bold text-danger">0   </span>
+                        Payment Confirmed
+                        <span class="fas fa-clipboard-check fa-fw text-dark"></span>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" id="paid-tab" href="#paid" data-toggle="tab" role="tab" aria-controls="paid" aria-selected="false">
+                        <span class="font-weight-bold text-danger">0   </span>
+                        Paid
+                        <span class="fas fa-money-bill-wave fa-fw text-dark"></span>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" id="check-in-tab" href="#check-in" data-toggle="tab" role="tab" aria-controls="check-in" aria-selected="false">
+                        <span class="font-weight-bold text-danger">0   </span>
+                        Check-in
+                        <span class="fas fa-door-open fa-fw text-dark"></span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="card-body">
+                  <div class="tab-content" id="cardTabContent">
+                    <div class="tab-pane fade show active" id="waiting" role="tabpanel" aria-labelledby="waiting-tab">
+                      <p class="card-text">No data available.</p>
+                    </div>
+                    <div class="tab-pane fade" id="confirmed" role="tabpanel" aria-labelledby="confirmed-tab">
+                      <p class="card-text">No data available.</p>
+                    </div>
+                    <div class="tab-pane fade" id="paid" role="tabpanel" aria-labelledby="paid-tab">
+                      <p class="card-text">No data available.</p>
+                    </div>
+                    <div class="tab-pane fade" id="check-in" role="tabpanel" aria-labelledby="check-in-tab">
+                      <p class="card-text">No data available.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+
+        </div>
+        <!-- /.container-fluid -->
+
+      </div>
+      <!-- End of Main Content -->
+
+      <!-- Footer -->
+      <footer class="sticky-footer bg-white">
+        <div class="container my-auto">
+          <div class="copyright text-center my-auto">
+            <span>Copyright &copy; Bramastya 2020</span>
+          </div>
+        </div>
+      </footer>
+      <!-- End of Footer -->
+
+    </div>
+    <!-- End of Content Wrapper -->
+
+  </div>
+  <!-- End of Page Wrapper -->
+
+  <!-- Scroll to Top Button-->
+  <a class="scroll-to-top rounded" href="#page-top">
+    <i class="fas fa-angle-up"></i>
+  </a>
+
+  <!-- Logout Modal-->
+  <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+          <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+        <div class="modal-footer">
+          <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+          <a class="btn btn-primary" href="login.html">Logout</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap core JavaScript-->
+  <script src="vendor/jquery/jquery.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.js"></script>
+
+  <!-- Core plugin JavaScript-->
+  <script src="vendor/jquery-easing/jquery.easing.js"></script>
+
+  <!-- Custom scripts for all pages-->
+  <script src="js/sb-admin-2.js"></script>
+
+  <!-- Page level plugins -->
+  <script src="vendor/chart.js/Chart.js"></script>
+
+  <!-- Page level custom scripts -->
+  <script src="js/demo/chart-area-demo.js"></script>
+  <script src="js/demo/chart-pie-demo.js"></script>
+
+</body>
+
+</html>
