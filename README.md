@@ -1,1 +1,17 @@
 # picasso-test
+## Analisa dan kritik website [https://member.picassorewards.com/](https://member.picassorewards.com/)
+
+### 1. Halaman [login](https://member.picassorewards.com/login)
+Pada halaman login, logo diletakkan di sebelah kiri dan input diletakkan di sebelah kanan. Pada logo sudah terlihat cukup besar sehingga memudahkan user untuk mempercayai bahwa website yang diakses asli. Pada bagian input sudah lengkap yaitu terdapat tombol signin, sign up, forgot password dan checkk box stay signin seperti halaman login pada umumnya. Pada inputan terdapat requirement untuk mengisi identity dan passwordnya. Kekurangannya yaitu pada anchor "Terms & Conditions" dan "Privacy Policy" belum ada halamannya.
+### 2. Halaman [register](https://member.picassorewards.com/register)
+Pada halaman register, logo diletakkan di atas dan input diletakkan dibawahnya. Pada input terdapat simbol bintang merah yang dimaksudkan untuk wajib diisi, untuk lainnya sama dengan halaman login. Kekurangannya juga sama dengan halaman login yaitu pada anchor "Terms & Conditions" dan "Privacy Policy" belum ada halamannya.
+### 3. Halaman [forgot password](https://member.picassorewards.com/forgot-password)
+Pada halaman forgot password, logo diletakkan di sebelah kiri dan input diletakkan di sebelah kanan. Pada bagian input hanya terdapat input email dan terdapat tombol send reset link dan sign in. Kekurangannya yaitu pada tombol send reset link hurufnya kapital jika diseragamkan dengan tombol lain harusnya hanya kapital pada awal huruf saja.
+### 4. Halaman [account](https://member.picassorewards.com/account)
+Pada halaman account, logo diletakkan di sebelah kiri atas, notifikasi jumlah points dan setting lainnya diletakkan di kanan atas, navigasi di bagian kiri dan isi dashboard di bagian kanan. Pada dashboard berisi kartu My Profile, My Points dan Booking Status. Pada booking status terdapat berbagai navigasi beserta jumlah datanya. Untuk tampilan dan pengalaman user sudah baik. Kekurangannya yaitu untuk scrolling halaman tidak berfungsi dan pada tombol "see my point" dan "view my stay" belum terdapat halamannya.
+### 5. Halaman [profile](https://member.picassorewards.com/profile)
+Pada halaman profile, terdapat kartu gambar profile, My profile dan Contact Information, untuk yang lainnya sama dengan account dan untuk tampilan dan pengalaman user sudah baik. Kekurangannya sama dengan account yaitu untuk scrolling halaman tidak berfungsi.
+### 6. Halaman [point activity](https://member.picassorewards.com/point-activity), [stays](https://member.picassorewards.com/stays) dan [invoices](https://member.picassorewards.com/invoices)
+Pada halaman point activity, stays dan invoices masih kosong hanya terdapat tulisan "No data available." dan terdapat search engine pada sebelah kanan atas. Kekurangannya yaitu untuk search engine hanya menurut mencari booking code, mungkin bisa ditambah menurut tanggal atau jenisnya.
+### 7. Halaman [inbox](https://member.picassorewards.com/inbox)
+Pada halaman inbox, terdapat filter berupa dropdown tempat cabang dan kategori inbox. Pada bagian bawahnya terdapat kartu yang terdapat navigasi new, in progress dan closed disertai jumlah inboxnya. Terdapat juga search engine dengan letak yang sama pada sebelah kanan. Kekurangannya yaitu hampir sama yaitu untuk search engine hanya menurut mencari ticket number, mungkin bisa ditambah menurut tanggal, judul atau isi inbox.
